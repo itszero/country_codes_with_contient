@@ -1,0 +1,12 @@
+========================================
+
+Revision 4:
+  * Added CHANGELOG
+  * Added support for methods of the form find_ATTRIBUTE_by_ATTRIBUTE such as:
+    
+    find_a2_by_name('Australia')     # yields 'AU', which is equivilant to
+    find_by_name('Australia')[:a2]   # yields 'AU' also.
+    
+  * Tests updated to support methods of the form find_ATTRIBUTE_by_ATTRIBUTE
+
+========================================

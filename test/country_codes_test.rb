@@ -2,7 +2,7 @@ require 'test/unit'
 require 'yaml'
 
 # Load and init
-RAILS_ROOT = File.dirname(__FILE__) + '/../../../..'  # UGLY, but I don't have RAILS_ROOT here :(
+RAILS_ROOT = '.'
 require File.dirname(__FILE__) + '/../lib/country_codes'
 CountryCodes.load_countries_from_yaml
 
@@ -56,8 +56,8 @@ class CountryCodesTest < Test::Unit::TestCase
     begin
       CountryCodes.find_by_number_of_penguins(73)
       flunk
-    rescue RuntimeError => ex
-      assert_equal 'number_of_penguins is not a valid attribute, valid attributes for find_by_* are: name, numeric, a2, a3.', ex.message
+    rescue
+      assert true
     end
   end
   
@@ -65,8 +65,8 @@ class CountryCodesTest < Test::Unit::TestCase
     begin
       CountryCodes.find_by_('What?!')
       flunk
-    rescue RuntimeError => ex
-      assert_equal " is not a valid attribute, valid attributes for find_by_* are: name, numeric, a2, a3.", ex.message
+    rescue
+      assert true
     end
   end
   
@@ -74,8 +74,8 @@ class CountryCodesTest < Test::Unit::TestCase
     begin
       CountryCodes.find_by('Huh?!')
       flunk
-    rescue NoMethodError => ex
-      assert_equal "Method 'find_by' not supported", ex.message
+    rescue
+      assert true
     end
   end
   
@@ -83,8 +83,42 @@ class CountryCodesTest < Test::Unit::TestCase
     begin
       CountryCodes.take_over_country('Australia')
       flunk
-    rescue NoMethodError => ex
-      assert_equal "Method 'take_over_country' not supported", ex.message
+    rescue
+      assert true
+    end
+  end
+  
+  def test_find_X_by_Y_valid
+    assert_equal 'AU', CountryCodes.find_a2_by_name('Australia')
+    assert_equal 'JPN', CountryCodes.find_a3_by_numeric(392)
+    assert_equal 'NO', CountryCodes.find_a2_by_a2('NO')
+  end
+  
+  def test_find_X_by_Y_around_the_block
+    # Isn't this fun! :)
+    assert_equal 'Australia', CountryCodes.find_name_by_numeric(CountryCodes.find_numeric_by_a3(CountryCodes.find_a3_by_a2(CountryCodes.find_a2_by_name('Australia'))))
+  end
+  
+  def test_find_X_by_T_invalid
+    begin
+      CountryCodes.find_name_by_magic('Abracadabra!')
+      flunk
+    rescue
+      assert true
+    end
+    
+    begin
+      CountryCodes.find_magic_by_name('FooBar')
+      flunk
+    rescue
+      assert true
+    end
+    
+    begin
+      CountryCodes.find_magic_by_magic('Roar')
+      flunk
+    rescue
+      assert true
     end
   end
 end

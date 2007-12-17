@@ -1,6 +1,17 @@
 module CountryCodes # :nodoc:
-  def self.method_missing(name, *args)  
-    if match = /find_by_(.*)/.match(name.to_s)
+  def self.method_missing(name, *args)
+    if match = /find_([^_]*)_by_([^_]*)/.match(name.to_s)
+      raise "1 argument expected, #{args.size} provided." unless args.size == 1
+      
+      required = match[1]
+      request  = match[2]
+      if valid_attributes.include?(request) && valid_attributes.include?(required)
+        @countries[request][args[0].to_s.downcase][required.to_sym] || nil rescue nil
+      else
+        raise "#{request} is not a valid attribute, valid attributes for find_*_by_* are: #{valid_attributes.join(', ')}."
+      end
+      
+    elsif match = /find_by_(.*)/.match(name.to_s)
       raise "1 argument expected, #{args.size} provided." unless args.size == 1
       
       request = match[1]     
@@ -9,6 +20,7 @@ module CountryCodes # :nodoc:
       else
         raise "#{request} is not a valid attribute, valid attributes for find_by_* are: #{valid_attributes.join(', ')}."
       end
+      
     else
       raise NoMethodError.new("Method '#{name}' not supported")
     end
