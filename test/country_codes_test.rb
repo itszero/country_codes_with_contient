@@ -121,4 +121,62 @@ class CountryCodesTest < Test::Unit::TestCase
       assert true
     end
   end
+  
+  def test_countries_for_select
+    # Correct type is returned
+    assert CountryCodes.countries_for_select('name').is_a?(Array)
+  end
+  
+  def test_countries_for_select_works_for_each_attribute
+    # Correct number of countries returned
+    assert_equal 246, CountryCodes.countries_for_select('name').size
+    assert_equal 246, CountryCodes.countries_for_select('a2').size
+    assert_equal 246, CountryCodes.countries_for_select('a3').size
+    assert_equal 246, CountryCodes.countries_for_select('numeric').size        
+  end
+  
+  def test_countries_for_select_missing_attributes
+    begin
+      CountryCodes.countries_for_select
+      flunk
+    rescue
+      assert true
+    end
+  end
+  
+  def test_countries_for_select_wrong_attribute
+    begin
+      CountryCodes.countries_for_select('number_of_ninjas')
+      flunk
+    rescue
+      assert true
+    end
+  end
+  
+  def test_countries_for_select_mixed_good_and_bad_attributes
+    begin
+      CountryCodes.countries_for_select('name', 'number_of_ninjas')
+      flunk
+    rescue
+      assert true
+    end
+  end
+  
+  def test_countries_for_select_multiple_attributes
+    countries_by_name_and_a2 = CountryCodes.countries_for_select('name', 'a2')
+    
+    # Are we still getting the right number of results
+    assert_equal 246, countries_by_name_and_a2.size
+    
+    # Lets look at a single result and check the information we're getting (and that it's ordered correctly!)
+    australia = countries_by_name_and_a2.select { |c| c.first == 'Australia' }.flatten
+    assert australia
+    assert_equal 2, australia.size
+    assert_equal 'Australia', australia[0]
+    assert_equal 'AU', australia[1]
+  end
+  
+  def test_countries_For_select_duplicate_attributes
+    assert_equal 246, CountryCodes.countries_for_select('a2', 'a2', 'name', 'a2').size
+  end
 end

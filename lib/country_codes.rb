@@ -26,6 +26,20 @@ module CountryCodes # :nodoc:
     end
   end
   
+  def self.countries_for_select(*args)
+    # Ensure that each of the arguments is a valid attribute
+    args.each do |arg|
+      unless valid_attributes.include?(arg)
+        raise "#{arg} is not a valid attribute, valid attributes are: #{valid_attributes.join(', ')}"
+      end
+    end
+    
+    # Build and return the desired array
+    @countries[@countries.keys.first].map do |index, country|
+      args.map { |a| country[a.to_sym] }
+    end
+  end
+  
   def self.valid_attributes
     @countries.keys
   end
