@@ -1,4 +1,4 @@
-CountryCodes
+CountryCodesWithContient
 ============
 
 This plugin provides an easy to access collection of ISO 3166-1, codes for the representation of names of countries and their subdivisions.
@@ -14,7 +14,7 @@ Contains the following from ISO 3166-1:
     independence, and hence useful for people or systems which uses a non-Latin script. This is
     identicalto codes defined by the United Nations Statistics Division.
 
-
+** In this fork, you can get contient information, too.
 
 Example
 =======
@@ -26,6 +26,7 @@ Find a country by name and retrieve information about it (alpha-2, alpha-3 and n
   australia[:a2]       # yields 'au'
   australia[:a3]       # yields 'aus'
   australia[:numeric]  # yields 36
+  australia[:contient] # yields 'OC'
   
   
 Likewise countries can be found using any of the provides attributes (name, a2, a3 or numeric), such as:
@@ -37,4 +38,6 @@ Search conditions are case-insensitive.
 
 
 
-Copyright (c) 2007 James Brooks (http://blog.whitet.net), released under the MIT license
+Original copyright (c) 2007 James Brooks (http://blog.whitet.net), released under the MIT license
+Copyright (c) 2008 Zero Cho (http://blog.orez.us/), released under the MIT license, too.
+Contient data is extracted from "http://en.wikipedia.org/wiki/List_of_countries_by_continent_(data_file)"

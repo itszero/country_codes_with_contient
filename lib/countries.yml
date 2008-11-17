@@ -1,1476 +1,1233 @@
----
--
-  :name: Afghanistan
-  :a2: AF
+--- 
+- :a2: AF
+  :Contient: AS
   :a3: AFG
   :numeric: 4
-
--
-  :name: Åland
-  :a2: AX
+  :name: Afghanistan
+- :a2: AX
+  :Contient: EU
   :a3: ALA
   :numeric: 248
+  :name: !binary |
+    w4VsYW5k
 
--
-  :name: Albania
-  :a2: AL
+- :a2: AL
+  :Contient: EU
   :a3: ALB
   :numeric: 8
-
--
-  :name: Algeria
-  :a2: DZ
+  :name: Albania
+- :a2: DZ
+  :Contient: AF
   :a3: DZA
   :numeric: 12
-
--
-  :name: American Samoa
-  :a2: AS
+  :name: Algeria
+- :a2: AS
+  :Contient: OC
   :a3: ASM
   :numeric: 16
-
--
-  :name: Andorra
-  :a2: AD
+  :name: American Samoa
+- :a2: AD
+  :Contient: EU
   :a3: AND
   :numeric: 20
-
--
-  :name: Angola
-  :a2: AO
+  :name: Andorra
+- :a2: AO
+  :Contient: AF
   :a3: AGO
   :numeric: 24
-
--
-  :name: Anguilla
-  :a2: AI
+  :name: Angola
+- :a2: AI
+  :Contient: NA
   :a3: AIA
   :numeric: 660
-
--
-  :name: Antarctica
-  :a2: AQ
+  :name: Anguilla
+- :a2: AQ
+  :Contient: AN
   :a3: ATA
   :numeric: 10
-
--
-  :name: Antigua and Barbuda
-  :a2: AG
+  :name: Antarctica
+- :a2: AG
+  :Contient: NA
   :a3: ATG
   :numeric: 28
-
--
-  :name: Argentina
-  :a2: AR
+  :name: Antigua and Barbuda
+- :a2: AR
+  :Contient: SA
   :a3: ARG
   :numeric: 32
-
--
-  :name: Armenia
-  :a2: AM
+  :name: Argentina
+- :a2: AM
+  :Contient: AS
   :a3: ARM
   :numeric: 51
-
--
-  :name: Aruba
-  :a2: AW
+  :name: Armenia
+- :a2: AW
+  :Contient: NA
   :a3: ABW
   :numeric: 533
-
--
-  :name: Australia
-  :a2: AU
+  :name: Aruba
+- :a2: AU
+  :Contient: OC
   :a3: AUS
   :numeric: 36
-
--
-  :name: Austria
-  :a2: AT
+  :name: Australia
+- :a2: AT
+  :Contient: EU
   :a3: AUT
   :numeric: 40
-
--
-  :name: Azerbaijan
-  :a2: AZ
+  :name: Austria
+- :a2: AZ
+  :Contient: AS
   :a3: AZE
   :numeric: 31
-
--
-  :name: Bahamas
-  :a2: BS
+  :name: Azerbaijan
+- :a2: BS
+  :Contient: NA
   :a3: BHS
   :numeric: 44
-
--
-  :name: Bahrain
-  :a2: BH
+  :name: Bahamas
+- :a2: BH
+  :Contient: AS
   :a3: BHR
   :numeric: 48
-
--
-  :name: Bangladesh
-  :a2: BD
+  :name: Bahrain
+- :a2: BD
+  :Contient: AS
   :a3: BGD
   :numeric: 50
-
--
-  :name: Barbados
-  :a2: BB
+  :name: Bangladesh
+- :a2: BB
+  :Contient: NA
   :a3: BRB
   :numeric: 52
-
--
-  :name: Belarus
-  :a2: BY
+  :name: Barbados
+- :a2: BY
+  :Contient: EU
   :a3: BLR
   :numeric: 112
-
--
-  :name: Belgium
-  :a2: BE
+  :name: Belarus
+- :a2: BE
+  :Contient: EU
   :a3: BEL
   :numeric: 56
-
--
-  :name: Belize
-  :a2: BZ
+  :name: Belgium
+- :a2: BZ
+  :Contient: NA
   :a3: BLZ
   :numeric: 84
-
--
-  :name: Benin
-  :a2: BJ
+  :name: Belize
+- :a2: BJ
+  :Contient: AF
   :a3: BEN
   :numeric: 204
-
--
-  :name: Bermuda
-  :a2: BM
+  :name: Benin
+- :a2: BM
+  :Contient: NA
   :a3: BMU
   :numeric: 60
-
--
-  :name: Bhutan
-  :a2: BT
+  :name: Bermuda
+- :a2: BT
+  :Contient: AS
   :a3: BTN
   :numeric: 64
-
--
-  :name: Bolivia
-  :a2: BO
+  :name: Bhutan
+- :a2: BO
+  :Contient: SA
   :a3: BOL
   :numeric: 68
-
--
-  :name: Bosnia and Herzegovina
-  :a2: BA
+  :name: Bolivia
+- :a2: BA
+  :Contient: EU
   :a3: BIH
   :numeric: 70
-
--
-  :name: Botswana
-  :a2: BW
+  :name: Bosnia and Herzegovina
+- :a2: BW
+  :Contient: AF
   :a3: BWA
   :numeric: 72
-
--
-  :name: Bouvet Island
-  :a2: BV
+  :name: Botswana
+- :a2: BV
+  :Contient: AN
   :a3: BVT
   :numeric: 74
-
--
-  :name: Brazil
-  :a2: BR
+  :name: Bouvet Island
+- :a2: BR
+  :Contient: SA
   :a3: BRA
   :numeric: 76
-
--
-  :name: British Indian Ocean Territory
-  :a2: IO
+  :name: Brazil
+- :a2: IO
+  :Contient: AS
   :a3: IOT
   :numeric: 86
-
--
-  :name: Brunei Darussalam
-  :a2: BN
+  :name: British Indian Ocean Territory
+- :a2: BN
+  :Contient: AS
   :a3: BRN
   :numeric: 96
-
--
-  :name: Bulgaria
-  :a2: BG
+  :name: Brunei Darussalam
+- :a2: BG
+  :Contient: EU
   :a3: BGR
   :numeric: 100
-
--
-  :name: Burkina Faso
-  :a2: BF
+  :name: Bulgaria
+- :a2: BF
+  :Contient: AF
   :a3: BFA
   :numeric: 854
-
--
-  :name: Burundi
-  :a2: BI
+  :name: Burkina Faso
+- :a2: BI
+  :Contient: AF
   :a3: BDI
   :numeric: 108
-
--
-  :name: Cambodia
-  :a2: KH
+  :name: Burundi
+- :a2: KH
+  :Contient: AS
   :a3: KHM
   :numeric: 116
-
--
-  :name: Cameroon
-  :a2: CM
+  :name: Cambodia
+- :a2: CM
+  :Contient: AF
   :a3: CMR
   :numeric: 120
-
--
-  :name: Canada
-  :a2: CA
+  :name: Cameroon
+- :a2: CA
+  :Contient: NA
   :a3: CAN
   :numeric: 124
-
--
-  :name: Cape Verde
-  :a2: CV
+  :name: Canada
+- :a2: CV
+  :Contient: AF
   :a3: CPV
   :numeric: 132
-
--
-  :name: Cayman Islands
-  :a2: KY
+  :name: Cape Verde
+- :a2: KY
+  :Contient: NA
   :a3: CYM
   :numeric: 136
-
--
-  :name: Central African Republic
-  :a2: CF
+  :name: Cayman Islands
+- :a2: CF
+  :Contient: AF
   :a3: CAF
   :numeric: 140
-
--
-  :name: Chad
-  :a2: TD
+  :name: Central African Republic
+- :a2: TD
+  :Contient: AF
   :a3: TCD
   :numeric: 148
-
--
-  :name: Chile
-  :a2: CL
+  :name: Chad
+- :a2: CL
+  :Contient: SA
   :a3: CHL
   :numeric: 152
-
--
-  :name: China
-  :a2: CN
+  :name: Chile
+- :a2: CN
+  :Contient: AS
   :a3: CHN
   :numeric: 156
-
--
-  :name: Christmas Island
-  :a2: CX
+  :name: China
+- :a2: CX
+  :Contient: AS
   :a3: CXR
   :numeric: 162
-
--
-  :name: Cocos (Keeling) Islands
-  :a2: CC
+  :name: Christmas Island
+- :a2: CC
+  :Contient: AS
   :a3: CCK
   :numeric: 166
-
--
-  :name: Colombia
-  :a2: CO
+  :name: Cocos (Keeling) Islands
+- :a2: CO
+  :Contient: SA
   :a3: COL
   :numeric: 170
-
--
-  :name: Comoros
-  :a2: KM
+  :name: Colombia
+- :a2: KM
+  :Contient: AF
   :a3: COM
   :numeric: 174
-
--
-  :name: Congo (Brazzaville)
-  :a2: CG
+  :name: Comoros
+- :a2: CG
+  :Contient: AF
   :a3: COG
   :numeric: 178
-
--
-  :name: Congo (Kinshasa)
-  :a2: CD
+  :name: Congo (Brazzaville)
+- :a2: CD
+  :Contient: AF
   :a3: COD
   :numeric: 180
-
--
-  :name: Cook Islands
-  :a2: CK
+  :name: Congo (Kinshasa)
+- :a2: CK
+  :Contient: OC
   :a3: COK
   :numeric: 184
-
--
-  :name: Costa Rica
-  :a2: CR
+  :name: Cook Islands
+- :a2: CR
+  :Contient: NA
   :a3: CRI
   :numeric: 188
-
--
-  :name: Côte d'Ivoire
-  :a2: CI
+  :name: Costa Rica
+- :a2: CI
+  :Contient: AF
   :a3: CIV
   :numeric: 384
-
--
-  :name: Croatia
-  :a2: HR
+  :name: "C\xC3\xB4te d'Ivoire"
+- :a2: HR
+  :Contient: EU
   :a3: HRV
   :numeric: 191
-
--
-  :name: Cuba
-  :a2: CU
+  :name: Croatia
+- :a2: CU
+  :Contient: NA
   :a3: CUB
   :numeric: 192
-
--
-  :name: Cyprus
-  :a2: CY
+  :name: Cuba
+- :a2: CY
+  :Contient: AS
   :a3: CYP
   :numeric: 196
-
--
-  :name: Czech Republic
-  :a2: CZ
+  :name: Cyprus
+- :a2: CZ
+  :Contient: EU
   :a3: CZE
   :numeric: 203
-
--
-  :name: Denmark
-  :a2: DK
+  :name: Czech Republic
+- :a2: DK
+  :Contient: EU
   :a3: DNK
   :numeric: 208
-
--
-  :name: Djibouti
-  :a2: DJ
+  :name: Denmark
+- :a2: DJ
+  :Contient: AF
   :a3: DJI
   :numeric: 262
-
--
-  :name: Dominica
-  :a2: DM
+  :name: Djibouti
+- :a2: DM
+  :Contient: NA
   :a3: DMA
   :numeric: 212
-
--
-  :name: Dominican Republic
-  :a2: DO
+  :name: Dominica
+- :a2: DO
+  :Contient: NA
   :a3: DOM
   :numeric: 214
-
--
-  :name: Ecuador
-  :a2: EC
+  :name: Dominican Republic
+- :a2: EC
+  :Contient: SA
   :a3: ECU
   :numeric: 218
-
--
-  :name: Egypt
-  :a2: EG
+  :name: Ecuador
+- :a2: EG
+  :Contient: AF
   :a3: EGY
   :numeric: 818
-
--
-  :name: El Salvador
-  :a2: SV
+  :name: Egypt
+- :a2: SV
+  :Contient: NA
   :a3: SLV
   :numeric: 222
-
--
-  :name: Equatorial Guinea
-  :a2: GQ
+  :name: El Salvador
+- :a2: GQ
+  :Contient: AF
   :a3: GNQ
   :numeric: 226
-
--
-  :name: Eritrea
-  :a2: ER
+  :name: Equatorial Guinea
+- :a2: ER
+  :Contient: AF
   :a3: ERI
   :numeric: 232
-
--
-  :name: Estonia
-  :a2: EE
+  :name: Eritrea
+- :a2: EE
+  :Contient: EU
   :a3: EST
   :numeric: 233
-
--
-  :name: Ethiopia
-  :a2: ET
+  :name: Estonia
+- :a2: ET
+  :Contient: AF
   :a3: ETH
   :numeric: 231
-
--
-  :name: Falkland Islands
-  :a2: FK
+  :name: Ethiopia
+- :a2: FK
+  :Contient: SA
   :a3: FLK
   :numeric: 238
-
--
-  :name: Faroe Islands
-  :a2: FO
+  :name: Falkland Islands
+- :a2: FO
+  :Contient: EU
   :a3: FRO
   :numeric: 234
-
--
-  :name: Fiji
-  :a2: FJ
+  :name: Faroe Islands
+- :a2: FJ
+  :Contient: OC
   :a3: FJI
   :numeric: 242
-
--
-  :name: Finland
-  :a2: FI
+  :name: Fiji
+- :a2: FI
+  :Contient: EU
   :a3: FIN
   :numeric: 246
-
--
-  :name: France
-  :a2: FR
+  :name: Finland
+- :a2: FR
+  :Contient: EU
   :a3: FRA
   :numeric: 250
-
--
-  :name: French Guiana
-  :a2: GF
+  :name: France
+- :a2: GF
+  :Contient: SA
   :a3: GUF
   :numeric: 254
-
--
-  :name: French Polynesia
-  :a2: PF
+  :name: French Guiana
+- :a2: PF
+  :Contient: OC
   :a3: PYF
   :numeric: 258
-
--
-  :name: French Southern Lands
-  :a2: TF
+  :name: French Polynesia
+- :a2: TF
+  :Contient: AN
   :a3: ATF
   :numeric: 260
-
--
-  :name: Gabon
-  :a2: GA
+  :name: French Southern Lands
+- :a2: GA
+  :Contient: AF
   :a3: GAB
   :numeric: 266
-
--
-  :name: Gambia
-  :a2: GM
+  :name: Gabon
+- :a2: GM
+  :Contient: AF
   :a3: GMB
   :numeric: 270
-
--
-  :name: Georgia
-  :a2: GE
+  :name: Gambia
+- :a2: GE
+  :Contient: AS
   :a3: GEO
   :numeric: 268
-
--
-  :name: Germany
-  :a2: DE
+  :name: Georgia
+- :a2: DE
+  :Contient: EU
   :a3: DEU
   :numeric: 276
-
--
-  :name: Ghana
-  :a2: GH
+  :name: Germany
+- :a2: GH
+  :Contient: AF
   :a3: GHA
   :numeric: 288
-
--
-  :name: Gibraltar
-  :a2: GI
+  :name: Ghana
+- :a2: GI
+  :Contient: EU
   :a3: GIB
   :numeric: 292
-
--
-  :name: Greece
-  :a2: GR
+  :name: Gibraltar
+- :a2: GR
+  :Contient: EU
   :a3: GRC
   :numeric: 300
-
--
-  :name: Greenland
-  :a2: GL
+  :name: Greece
+- :a2: GL
+  :Contient: NA
   :a3: GRL
   :numeric: 304
-
--
-  :name: Grenada
-  :a2: GD
+  :name: Greenland
+- :a2: GD
+  :Contient: NA
   :a3: GRD
   :numeric: 308
-
--
-  :name: Guadeloupe
-  :a2: GP
+  :name: Grenada
+- :a2: GP
+  :Contient: NA
   :a3: GLP
   :numeric: 312
-
--
-  :name: Guam
-  :a2: GU
+  :name: Guadeloupe
+- :a2: GU
+  :Contient: OC
   :a3: GUM
   :numeric: 316
-
--
-  :name: Guatemala
-  :a2: GT
+  :name: Guam
+- :a2: GT
+  :Contient: NA
   :a3: GTM
   :numeric: 320
-
--
-  :name: Guernsey
-  :a2: GG
+  :name: Guatemala
+- :a2: GG
+  :Contient: EU
   :a3: GGY
   :numeric: 831
-
--
-  :name: Guinea
-  :a2: GN
+  :name: Guernsey
+- :a2: GN
+  :Contient: AF
   :a3: GIN
   :numeric: 324
-
--
-  :name: Guinea-Bissau
-  :a2: GW
+  :name: Guinea
+- :a2: GW
+  :Contient: AF
   :a3: GNB
   :numeric: 624
-
--
-  :name: Guyana
-  :a2: GY
+  :name: Guinea-Bissau
+- :a2: GY
+  :Contient: SA
   :a3: GUY
   :numeric: 328
-
--
-  :name: Haiti
-  :a2: HT
+  :name: Guyana
+- :a2: HT
+  :Contient: NA
   :a3: HTI
   :numeric: 332
-
--
-  :name: Heard and McDonald Islands
-  :a2: HM
+  :name: Haiti
+- :a2: HM
+  :Contient: AN
   :a3: HMD
   :numeric: 334
-
--
-  :name: Honduras
-  :a2: HN
+  :name: Heard and McDonald Islands
+- :a2: HN
+  :Contient: NA
   :a3: HND
   :numeric: 340
-
--
-  :name: Hong Kong
-  :a2: HK
+  :name: Honduras
+- :a2: HK
+  :Contient: AS
   :a3: HKG
   :numeric: 344
-
--
-  :name: Hungary
-  :a2: HU
+  :name: Hong Kong
+- :a2: HU
+  :Contient: EU
   :a3: HUN
   :numeric: 348
-
--
-  :name: Iceland
-  :a2: IS
+  :name: Hungary
+- :a2: IS
+  :Contient: EU
   :a3: ISL
   :numeric: 352
-
--
-  :name: India
-  :a2: IN
+  :name: Iceland
+- :a2: IN
+  :Contient: AS
   :a3: IND
   :numeric: 356
-
--
-  :name: Indonesia
-  :a2: ID
+  :name: India
+- :a2: ID
+  :Contient: AS
   :a3: IDN
   :numeric: 360
-
--
-  :name: Iran
-  :a2: IR
+  :name: Indonesia
+- :a2: IR
+  :Contient: AS
   :a3: IRN
   :numeric: 364
-
--
-  :name: Iraq
-  :a2: IQ
+  :name: Iran
+- :a2: IQ
+  :Contient: AS
   :a3: IRQ
   :numeric: 368
-
--
-  :name: Ireland
-  :a2: IE
+  :name: Iraq
+- :a2: IE
+  :Contient: EU
   :a3: IRL
   :numeric: 372
-
--
-  :name: Isle of Man
-  :a2: IM
+  :name: Ireland
+- :a2: IM
+  :Contient: EU
   :a3: IMN
   :numeric: 833
-
--
-  :name: Israel
-  :a2: IL
+  :name: Isle of Man
+- :a2: IL
+  :Contient: AS
   :a3: ISR
   :numeric: 376
-
--
-  :name: Italy
-  :a2: IT
+  :name: Israel
+- :a2: IT
+  :Contient: EU
   :a3: ITA
   :numeric: 380
-
--
-  :name: Jamaica
-  :a2: JM
+  :name: Italy
+- :a2: JM
+  :Contient: NA
   :a3: JAM
   :numeric: 388
-
--
-  :name: Japan
-  :a2: JP
+  :name: Jamaica
+- :a2: JP
+  :Contient: AS
   :a3: JPN
   :numeric: 392
-
--
-  :name: Jersey
-  :a2: JE
+  :name: Japan
+- :a2: JE
+  :Contient: EU
   :a3: JEY
   :numeric: 832
-
--
-  :name: Jordan
-  :a2: JO
+  :name: Jersey
+- :a2: JO
+  :Contient: AS
   :a3: JOR
   :numeric: 400
-
--
-  :name: Kazakhstan
-  :a2: KZ
+  :name: Jordan
+- :a2: KZ
+  :Contient: AS
   :a3: KAZ
   :numeric: 398
-
--
-  :name: Kenya
-  :a2: KE
+  :name: Kazakhstan
+- :a2: KE
+  :Contient: AF
   :a3: KEN
   :numeric: 404
-
--
-  :name: Kiribati
-  :a2: KI
+  :name: Kenya
+- :a2: KI
+  :Contient: OC
   :a3: KIR
   :numeric: 296
-
--
-  :name: Korea, North
-  :a2: KP
+  :name: Kiribati
+- :a2: KP
+  :Contient: AS
   :a3: PRK
   :numeric: 408
-
--
-  :name: Korea, South
-  :a2: KR
+  :name: Korea, North
+- :a2: KR
+  :Contient: AS
   :a3: KOR
   :numeric: 410
-
--
-  :name: Kuwait
-  :a2: KW
+  :name: Korea, South
+- :a2: KW
+  :Contient: AS
   :a3: KWT
   :numeric: 414
-
--
-  :name: Kyrgyzstan
-  :a2: KG
+  :name: Kuwait
+- :a2: KG
+  :Contient: AS
   :a3: KGZ
   :numeric: 417
-
--
-  :name: Laos
-  :a2: LA
+  :name: Kyrgyzstan
+- :a2: LA
+  :Contient: AS
   :a3: LAO
   :numeric: 418
-
--
-  :name: Latvia
-  :a2: LV
+  :name: Laos
+- :a2: LV
+  :Contient: EU
   :a3: LVA
   :numeric: 428
-
--
-  :name: Lebanon
-  :a2: LB
+  :name: Latvia
+- :a2: LB
+  :Contient: AS
   :a3: LBN
   :numeric: 422
-
--
-  :name: Lesotho
-  :a2: LS
+  :name: Lebanon
+- :a2: LS
+  :Contient: AF
   :a3: LSO
   :numeric: 426
-
--
-  :name: Liberia
-  :a2: LR
+  :name: Lesotho
+- :a2: LR
+  :Contient: AF
   :a3: LBR
   :numeric: 430
-
--
-  :name: Libya
-  :a2: LY
+  :name: Liberia
+- :a2: LY
+  :Contient: AF
   :a3: LBY
   :numeric: 434
-
--
-  :name: Liechtenstein
-  :a2: LI
+  :name: Libya
+- :a2: LI
+  :Contient: EU
   :a3: LIE
   :numeric: 438
-
--
-  :name: Lithuania
-  :a2: LT
+  :name: Liechtenstein
+- :a2: LT
+  :Contient: EU
   :a3: LTU
   :numeric: 440
-
--
-  :name: Luxembourg
-  :a2: LU
+  :name: Lithuania
+- :a2: LU
+  :Contient: EU
   :a3: LUX
   :numeric: 442
-
--
-  :name: Macau
-  :a2: MO
+  :name: Luxembourg
+- :a2: MO
+  :Contient: AS
   :a3: MAC
   :numeric: 446
-
--
-  :name: Macedonia
-  :a2: MK
+  :name: Macau
+- :a2: MK
+  :Contient: EU
   :a3: MKD
   :numeric: 807
-
--
-  :name: Madagascar
-  :a2: MG
+  :name: Macedonia
+- :a2: MG
+  :Contient: AF
   :a3: MDG
   :numeric: 450
-
--
-  :name: Malawi
-  :a2: MW
+  :name: Madagascar
+- :a2: MW
+  :Contient: AF
   :a3: MWI
   :numeric: 454
-
--
-  :name: Malaysia
-  :a2: MY
+  :name: Malawi
+- :a2: MY
+  :Contient: AS
   :a3: MYS
   :numeric: 458
-
--
-  :name: Maldives
-  :a2: MV
+  :name: Malaysia
+- :a2: MV
+  :Contient: AS
   :a3: MDV
   :numeric: 462
-
--
-  :name: Mali
-  :a2: ML
+  :name: Maldives
+- :a2: ML
+  :Contient: AF
   :a3: MLI
   :numeric: 466
-
--
-  :name: Malta
-  :a2: MT
+  :name: Mali
+- :a2: MT
+  :Contient: EU
   :a3: MLT
   :numeric: 470
-
--
-  :name: Marshall Islands
-  :a2: MH
+  :name: Malta
+- :a2: MH
+  :Contient: OC
   :a3: MHL
   :numeric: 584
-
--
-  :name: Martinique
-  :a2: MQ
+  :name: Marshall Islands
+- :a2: MQ
+  :Contient: NA
   :a3: MTQ
   :numeric: 474
-
--
-  :name: Mauritania
-  :a2: MR
+  :name: Martinique
+- :a2: MR
+  :Contient: AF
   :a3: MRT
   :numeric: 478
-
--
-  :name: Mauritius
-  :a2: MU
+  :name: Mauritania
+- :a2: MU
+  :Contient: AF
   :a3: MUS
   :numeric: 480
-
--
-  :name: Mayotte
-  :a2: YT
+  :name: Mauritius
+- :a2: YT
+  :Contient: AF
   :a3: MYT
   :numeric: 175
-
--
-  :name: Mexico
-  :a2: MX
+  :name: Mayotte
+- :a2: MX
+  :Contient: NA
   :a3: MEX
   :numeric: 484
-
--
-  :name: Micronesia
-  :a2: FM
+  :name: Mexico
+- :a2: FM
+  :Contient: OC
   :a3: FSM
   :numeric: 583
-
--
-  :name: Moldova
-  :a2: MD
+  :name: Micronesia
+- :a2: MD
+  :Contient: EU
   :a3: MDA
   :numeric: 498
-
--
-  :name: Monaco
-  :a2: MC
+  :name: Moldova
+- :a2: MC
+  :Contient: EU
   :a3: MCO
   :numeric: 492
-
--
-  :name: Mongolia
-  :a2: MN
+  :name: Monaco
+- :a2: MN
+  :Contient: AS
   :a3: MNG
   :numeric: 496
-
--
-  :name: Montenegro
-  :a2: ME
+  :name: Mongolia
+- :a2: ME
+  :Contient: EU
   :a3: MNE
   :numeric: 499
-
--
-  :name: Montserrat
-  :a2: MS
+  :name: Montenegro
+- :a2: MS
+  :Contient: NA
   :a3: MSR
   :numeric: 500
-
--
-  :name: Morocco
-  :a2: MA
+  :name: Montserrat
+- :a2: MA
+  :Contient: AF
   :a3: MAR
   :numeric: 504
-
--
-  :name: Mozambique
-  :a2: MZ
+  :name: Morocco
+- :a2: MZ
+  :Contient: AF
   :a3: MOZ
   :numeric: 508
-
--
-  :name: Myanmar
-  :a2: MM
+  :name: Mozambique
+- :a2: MM
+  :Contient: AS
   :a3: MMR
   :numeric: 104
-
--
-  :name: Namibia
-  :a2: NA
+  :name: Myanmar
+- :a2: NA
+  :Contient: AF
   :a3: NAM
   :numeric: 516
-
--
-  :name: Nauru
-  :a2: NR
+  :name: Namibia
+- :a2: NR
+  :Contient: OC
   :a3: NRU
   :numeric: 520
-
--
-  :name: Nepal
-  :a2: NP
+  :name: Nauru
+- :a2: NP
+  :Contient: AS
   :a3: NPL
   :numeric: 524
-
--
-  :name: Netherlands
-  :a2: NL
+  :name: Nepal
+- :a2: NL
+  :Contient: EU
   :a3: NLD
   :numeric: 528
-
--
-  :name: Netherlands Antilles
-  :a2: AN
+  :name: Netherlands
+- :a2: AN
+  :Contient: NA
   :a3: ANT
   :numeric: 530
-
--
-  :name: New Caledonia
-  :a2: NC
+  :name: Netherlands Antilles
+- :a2: NC
+  :Contient: OC
   :a3: NCL
   :numeric: 540
-
--
-  :name: New Zealand
-  :a2: NZ
+  :name: New Caledonia
+- :a2: NZ
+  :Contient: OC
   :a3: NZL
   :numeric: 554
-
--
-  :name: Nicaragua
-  :a2: NI
+  :name: New Zealand
+- :a2: NI
+  :Contient: NA
   :a3: NIC
   :numeric: 558
-
--
-  :name: Niger
-  :a2: NE
+  :name: Nicaragua
+- :a2: NE
+  :Contient: AF
   :a3: NER
   :numeric: 562
-
--
-  :name: Nigeria
-  :a2: NG
+  :name: Niger
+- :a2: NG
+  :Contient: AF
   :a3: NGA
   :numeric: 566
-
--
-  :name: Niue
-  :a2: NU
+  :name: Nigeria
+- :a2: NU
+  :Contient: OC
   :a3: NIU
   :numeric: 570
-
--
-  :name: Norfolk Island
-  :a2: NF
+  :name: Niue
+- :a2: NF
+  :Contient: OC
   :a3: NFK
   :numeric: 574
-
--
-  :name: Northern Mariana Islands
-  :a2: MP
+  :name: Norfolk Island
+- :a2: MP
+  :Contient: OC
   :a3: MNP
   :numeric: 580
-
--
-  :name: Norway
-  :a2: 'NO'
+  :name: Northern Mariana Islands
+- :a2: "NO"
+  :Contient: EU
   :a3: NOR
   :numeric: 578
-
--
-  :name: Oman
-  :a2: OM
+  :name: Norway
+- :a2: OM
+  :Contient: AS
   :a3: OMN
   :numeric: 512
-
--
-  :name: Pakistan
-  :a2: PK
+  :name: Oman
+- :a2: PK
+  :Contient: AS
   :a3: PAK
   :numeric: 586
-
--
-  :name: Palau
-  :a2: PW
+  :name: Pakistan
+- :a2: PW
+  :Contient: OC
   :a3: PLW
   :numeric: 585
-
--
-  :name: Palestine
-  :a2: PS
+  :name: Palau
+- :a2: PS
+  :Contient: AS
   :a3: PSE
   :numeric: 275
-
--
-  :name: Panama
-  :a2: PA
+  :name: Palestine
+- :a2: PA
+  :Contient: NA
   :a3: PAN
   :numeric: 591
-
--
-  :name: Papua New Guinea
-  :a2: PG
+  :name: Panama
+- :a2: PG
+  :Contient: OC
   :a3: PNG
   :numeric: 598
-
--
-  :name: Paraguay
-  :a2: PY
+  :name: Papua New Guinea
+- :a2: PY
+  :Contient: SA
   :a3: PRY
   :numeric: 600
-
--
-  :name: Peru
-  :a2: PE
+  :name: Paraguay
+- :a2: PE
+  :Contient: SA
   :a3: PER
   :numeric: 604
-
--
-  :name: Philippines
-  :a2: PH
+  :name: Peru
+- :a2: PH
+  :Contient: AS
   :a3: PHL
   :numeric: 608
-
--
-  :name: Pitcairn
-  :a2: PN
+  :name: Philippines
+- :a2: PN
+  :Contient: OC
   :a3: PCN
   :numeric: 612
-
--
-  :name: Poland
-  :a2: PL
+  :name: Pitcairn
+- :a2: PL
+  :Contient: EU
   :a3: POL
   :numeric: 616
-
--
-  :name: Portugal
-  :a2: PT
+  :name: Poland
+- :a2: PT
+  :Contient: EU
   :a3: PRT
   :numeric: 620
-
--
-  :name: Puerto Rico
-  :a2: PR
+  :name: Portugal
+- :a2: PR
+  :Contient: NA
   :a3: PRI
   :numeric: 630
-
--
-  :name: Qatar
-  :a2: QA
+  :name: Puerto Rico
+- :a2: QA
+  :Contient: AS
   :a3: QAT
   :numeric: 634
-
--
-  :name: Reunion
-  :a2: RE
+  :name: Qatar
+- :a2: RE
+  :Contient: AF
   :a3: REU
   :numeric: 638
-
--
-  :name: Romania
-  :a2: RO
+  :name: Reunion
+- :a2: RO
+  :Contient: EU
   :a3: ROU
   :numeric: 642
-
--
-  :name: Russian Federation
-  :a2: RU
+  :name: Romania
+- :a2: RU
+  :Contient: EU
   :a3: RUS
   :numeric: 643
-
--
-  :name: Rwanda
-  :a2: RW
+  :name: Russian Federation
+- :a2: RW
+  :Contient: AF
   :a3: RWA
   :numeric: 646
-
--
-  :name: Saint Barthélemy
-  :a2: BL
+  :name: Rwanda
+- :a2: BL
+  :Contient: NA
   :a3: BLM
   :numeric: 652
-
--
-  :name: Saint Helena
-  :a2: SH
+  :name: "Saint Barth\xC3\xA9lemy"
+- :a2: SH
+  :Contient: AF
   :a3: SHN
   :numeric: 654
-
--
-  :name: Saint Kitts and Nevis
-  :a2: KN
+  :name: Saint Helena
+- :a2: KN
+  :Contient: NA
   :a3: KNA
   :numeric: 659
-
--
-  :name: Saint Lucia
-  :a2: LC
+  :name: Saint Kitts and Nevis
+- :a2: LC
+  :Contient: NA
   :a3: LCA
   :numeric: 662
-
--
-  :name: Saint Martin (French part)
-  :a2: MF
+  :name: Saint Lucia
+- :a2: MF
+  :Contient: NA
   :a3: MAF
   :numeric: 663
-
--
-  :name: Saint Pierre and Miquelon
-  :a2: PM
+  :name: Saint Martin (French part)
+- :a2: PM
+  :Contient: NA
   :a3: SPM
   :numeric: 666
-
--
-  :name: Saint Vincent and the Grenadines
-  :a2: VC
+  :name: Saint Pierre and Miquelon
+- :a2: VC
+  :Contient: NA
   :a3: VCT
   :numeric: 670
-
--
-  :name: Samoa
-  :a2: WS
+  :name: Saint Vincent and the Grenadines
+- :a2: WS
+  :Contient: OC
   :a3: WSM
   :numeric: 882
-
--
-  :name: San Marino
-  :a2: SM
+  :name: Samoa
+- :a2: SM
+  :Contient: EU
   :a3: SMR
   :numeric: 674
-
--
-  :name: Sao Tome and Principe
-  :a2: ST
+  :name: San Marino
+- :a2: ST
+  :Contient: AF
   :a3: STP
   :numeric: 678
-
--
-  :name: Saudi Arabia
-  :a2: SA
+  :name: Sao Tome and Principe
+- :a2: SA
+  :Contient: AS
   :a3: SAU
   :numeric: 682
-
--
-  :name: Senegal
-  :a2: SN
+  :name: Saudi Arabia
+- :a2: SN
+  :Contient: AF
   :a3: SEN
   :numeric: 686
-
--
-  :name: Serbia
-  :a2: RS
+  :name: Senegal
+- :a2: RS
+  :Contient: EU
   :a3: SRB
   :numeric: 688
-
--
-  :name: Seychelles
-  :a2: SC
+  :name: Serbia
+- :a2: SC
+  :Contient: AF
   :a3: SYC
   :numeric: 690
-
--
-  :name: Sierra Leone
-  :a2: SL
+  :name: Seychelles
+- :a2: SL
+  :Contient: AF
   :a3: SLE
   :numeric: 694
-
--
-  :name: Singapore
-  :a2: SG
+  :name: Sierra Leone
+- :a2: SG
+  :Contient: AS
   :a3: SGP
   :numeric: 702
-
--
-  :name: Slovakia
-  :a2: SK
+  :name: Singapore
+- :a2: SK
+  :Contient: EU
   :a3: SVK
   :numeric: 703
-
--
-  :name: Slovenia
-  :a2: SI
+  :name: Slovakia
+- :a2: SI
+  :Contient: EU
   :a3: SVN
   :numeric: 705
-
--
-  :name: Solomon Islands
-  :a2: SB
+  :name: Slovenia
+- :a2: SB
+  :Contient: OC
   :a3: SLB
   :numeric: 90
-
--
-  :name: Somalia
-  :a2: SO
+  :name: Solomon Islands
+- :a2: SO
+  :Contient: AF
   :a3: SOM
   :numeric: 706
-
--
-  :name: South Africa
-  :a2: ZA
+  :name: Somalia
+- :a2: ZA
+  :Contient: AF
   :a3: ZAF
   :numeric: 710
-
--
-  :name: South Georgia and South Sandwich Islands
-  :a2: GS
+  :name: South Africa
+- :a2: GS
+  :Contient: AN
   :a3: SGS
   :numeric: 239
-
--
-  :name: Spain
-  :a2: ES
+  :name: South Georgia and South Sandwich Islands
+- :a2: ES
+  :Contient: EU
   :a3: ESP
   :numeric: 724
-
--
-  :name: Sri Lanka
-  :a2: LK
+  :name: Spain
+- :a2: LK
+  :Contient: AS
   :a3: LKA
   :numeric: 144
-
--
-  :name: Sudan
-  :a2: SD
+  :name: Sri Lanka
+- :a2: SD
+  :Contient: AF
   :a3: SDN
   :numeric: 736
-
--
-  :name: Suriname
-  :a2: SR
+  :name: Sudan
+- :a2: SR
+  :Contient: SA
   :a3: SUR
   :numeric: 740
-
--
-  :name: Svalbard and Jan Mayen Islands
-  :a2: SJ
+  :name: Suriname
+- :a2: SJ
+  :Contient: EU
   :a3: SJM
   :numeric: 744
-
--
-  :name: Swaziland
-  :a2: SZ
+  :name: Svalbard and Jan Mayen Islands
+- :a2: SZ
+  :Contient: AF
   :a3: SWZ
   :numeric: 748
-
--
-  :name: Sweden
-  :a2: SE
+  :name: Swaziland
+- :a2: SE
+  :Contient: EU
   :a3: SWE
   :numeric: 752
-
--
-  :name: Switzerland
-  :a2: CH
+  :name: Sweden
+- :a2: CH
+  :Contient: EU
   :a3: CHE
   :numeric: 756
-
--
-  :name: Syria
-  :a2: SY
+  :name: Switzerland
+- :a2: SY
+  :Contient: AS
   :a3: SYR
   :numeric: 760
-
--
-  :name: Taiwan
-  :a2: TW
+  :name: Syria
+- :a2: TW
+  :Contient: AS
   :a3: TWN
   :numeric: 158
-
--
-  :name: Tajikistan
-  :a2: TJ
+  :name: Taiwan
+- :a2: TJ
+  :Contient: AS
   :a3: TJK
   :numeric: 762
-
--
-  :name: Tanzania
-  :a2: TZ
+  :name: Tajikistan
+- :a2: TZ
+  :Contient: AF
   :a3: TZA
   :numeric: 834
-
--
-  :name: Thailand
-  :a2: TH
+  :name: Tanzania
+- :a2: TH
+  :Contient: AS
   :a3: THA
   :numeric: 764
-
--
-  :name: Timor-Leste
-  :a2: TL
+  :name: Thailand
+- :a2: TL
+  :Contient: AS
   :a3: TLS
   :numeric: 626
-
--
-  :name: Togo
-  :a2: TG
+  :name: Timor-Leste
+- :a2: TG
+  :Contient: AF
   :a3: TGO
   :numeric: 768
-
--
-  :name: Tokelau
-  :a2: TK
+  :name: Togo
+- :a2: TK
+  :Contient: OC
   :a3: TKL
   :numeric: 772
-
--
-  :name: Tonga
-  :a2: TO
+  :name: Tokelau
+- :a2: TO
+  :Contient: OC
   :a3: TON
   :numeric: 776
-
--
-  :name: Trinidad and Tobago
-  :a2: TT
+  :name: Tonga
+- :a2: TT
+  :Contient: NA
   :a3: TTO
   :numeric: 780
-
--
-  :name: Tunisia
-  :a2: TN
+  :name: Trinidad and Tobago
+- :a2: TN
+  :Contient: AF
   :a3: TUN
   :numeric: 788
-
--
-  :name: Turkey
-  :a2: TR
+  :name: Tunisia
+- :a2: TR
+  :Contient: AS
   :a3: TUR
   :numeric: 792
-
--
-  :name: Turkmenistan
-  :a2: TM
+  :name: Turkey
+- :a2: TM
+  :Contient: AS
   :a3: TKM
   :numeric: 795
-
--
-  :name: Turks and Caicos Islands
-  :a2: TC
+  :name: Turkmenistan
+- :a2: TC
+  :Contient: NA
   :a3: TCA
   :numeric: 796
-
--
-  :name: Tuvalu
-  :a2: TV
+  :name: Turks and Caicos Islands
+- :a2: TV
+  :Contient: OC
   :a3: TUV
   :numeric: 798
-
--
-  :name: Uganda
-  :a2: UG
+  :name: Tuvalu
+- :a2: UG
+  :Contient: AF
   :a3: UGA
   :numeric: 800
-
--
-  :name: Ukraine
-  :a2: UA
+  :name: Uganda
+- :a2: UA
+  :Contient: EU
   :a3: UKR
   :numeric: 804
-
--
-  :name: United Arab Emirates
-  :a2: AE
+  :name: Ukraine
+- :a2: AE
+  :Contient: AS
   :a3: ARE
   :numeric: 784
-
--
-  :name: United Kingdom
-  :a2: GB
+  :name: United Arab Emirates
+- :a2: GB
+  :Contient: EU
   :a3: GBR
   :numeric: 826
-
--
-  :name: United States Minor Outlying Islands
-  :a2: UM
+  :name: United Kingdom
+- :a2: UM
+  :Contient: OC
   :a3: UMI
   :numeric: 581
-
--
-  :name: United States of America
-  :a2: US
+  :name: United States Minor Outlying Islands
+- :a2: US
+  :Contient: NA
   :a3: USA
   :numeric: 840
-
--
-  :name: Uruguay
-  :a2: UY
+  :name: United States of America
+- :a2: UY
+  :Contient: SA
   :a3: URY
   :numeric: 858
-
--
-  :name: Uzbekistan
-  :a2: UZ
+  :name: Uruguay
+- :a2: UZ
+  :Contient: AS
   :a3: UZB
   :numeric: 860
-
--
-  :name: Vanuatu
-  :a2: VU
+  :name: Uzbekistan
+- :a2: VU
+  :Contient: OC
   :a3: VUT
   :numeric: 548
-
--
-  :name: Vatican City
-  :a2: VA
+  :name: Vanuatu
+- :a2: VA
+  :Contient: EU
   :a3: VAT
   :numeric: 336
-
--
-  :name: Venezuela
-  :a2: VE
+  :name: Vatican City
+- :a2: VE
+  :Contient: SA
   :a3: VEN
   :numeric: 862
-
--
-  :name: Vietnam
-  :a2: VN
+  :name: Venezuela
+- :a2: VN
+  :Contient: AS
   :a3: VNM
   :numeric: 704
-
--
-  :name: Virgin Islands, British
-  :a2: VG
+  :name: Vietnam
+- :a2: VG
+  :Contient: NA
   :a3: VGB
   :numeric: 92
-
--
-  :name: Virgin Islands, U.S.
-  :a2: VI
+  :name: Virgin Islands, British
+- :a2: VI
+  :Contient: NA
   :a3: VIR
   :numeric: 850
-
--
-  :name: Wallis and Futuna Islands
-  :a2: WF
+  :name: Virgin Islands, U.S.
+- :a2: WF
+  :Contient: OC
   :a3: WLF
   :numeric: 876
-
--
-  :name: Western Sahara
-  :a2: EH
+  :name: Wallis and Futuna Islands
+- :a2: EH
+  :Contient: AF
   :a3: ESH
   :numeric: 732
-
--
-  :name: Yemen
-  :a2: YE
+  :name: Western Sahara
+- :a2: YE
+  :Contient: AS
   :a3: YEM
   :numeric: 887
-
--
-  :name: Zambia
-  :a2: ZM
+  :name: Yemen
+- :a2: ZM
+  :Contient: AF
   :a3: ZMB
   :numeric: 894
-
--
-  :name: Zimbabwe
-  :a2: ZW
+  :name: Zambia
+- :a2: ZW
+  :Contient: AF
   :a3: ZWE
   :numeric: 716
+  :name: Zimbabwe

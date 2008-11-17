@@ -1,3 +1,5 @@
+require 'yaml'
+
 module CountryCodes # :nodoc:
   def self.method_missing(name, *args)
     if match = /find_([^_]*)_by_([^_]*)/.match(name.to_s)
