@@ -16,6 +16,10 @@ Contains the following from ISO 3166-1:
 
 ** In this fork, you can get contient information, too.
 
+Why
+======
+Since I'm working on an e-commerce website, and I found that most of international shipping method's price is based on the geographic areas. To be exactly, the contient(For example, the Taiwan's Post Office). So I modified the original plugin to return the contient information as well. The data is extracted from the Wikipedia with some manual modification to match both. For those who don't use the contient information, I suggest you can use the original plugin "CountryCodes", since its data size is smaller, let your rails application load faster.
+
 Example
 =======
 
